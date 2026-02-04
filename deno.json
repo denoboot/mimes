@@ -1,6 +1,12 @@
 {
   "name": "@denoboot/mimes",
   "version": "0.0.0",
+  "license": "MIT",
   "description": "MIME type lookup and registration",
-  "exports": "./mod.ts"
+  "exports": "./src/mod.ts",
+  "tasks": {
+    "lint": "deno lint",
+    "check": "deno check src/mod.ts",
+    "test": "deno test"
+  }
 }
